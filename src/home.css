@@ -1,10 +1,23 @@
 
 
-.altura{
-    height: 100vh;
-}
+
 header{
     background-image: url(../public/imagenes/rickymorty.jpg);
     background-attachment: fixed;
     background-size: cover;
+}
+.altura{
+    height: 100vh;
+}
+.fondo-blanco{
+    background-color: #ffffffe6 ;
+    height: 600px;
+    width: 600px;
+}
+h2, p{
+    color: #344d67;
+}
+h1{
+    color: #344d67;
+    font-weight: 500;
 }
