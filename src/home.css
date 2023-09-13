@@ -1,0 +1,10 @@
+
+
+.altura{
+    height: 100vh;
+}
+header{
+    background-image: url(../public/imagenes/rickymorty.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
