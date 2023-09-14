@@ -1,5 +1,6 @@
- import Navegacion from "../componentes/navegacion/navegacion";
+ import Navegacion from "../componentes/navegacion/Navegacion";
  import "../home.css"
+ 
 
 function Home() {
     return(

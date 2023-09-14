@@ -1,11 +1,4 @@
 
-
-
-header{
-    background-image: url(../public/imagenes/rickymorty.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-}
 .altura{
     height: 100vh;
 }
@@ -20,4 +13,11 @@ h2, p{
 h1{
     color: #344d67;
     font-weight: 500;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.navbar{
+    padding: 0.5 0;
 }

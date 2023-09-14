@@ -1,10 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import Home from './pages/home';
+//  import Characters from "./pages/characters/Characters"
+
 
 function App() {
   return (
-   <Home/>
+    <div>
+      {/* <Home/> */}
+ <Characters/>
+    </div>
+  
   );
 }
 
