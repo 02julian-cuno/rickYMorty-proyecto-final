@@ -1,32 +1,6 @@
-.fondo{
-    background-color: #344d67;
-    padding: 20px;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-    display: block;
+.tituloCharacters{
+     color: #344d67 !important;
 }
-h1,a{
-    color: #6eccaf!important
-}
-.text{
-    text-decoration: none;
-    cursor: pointer;
-    padding: 40px 80px!important;
-    font-weight: 500;
-}
-.continuo {
-    background-color: #6eccaf;
-    color: #344d67 !important;
-    text-decoration: none;
-    cursor: pointer;
-    
-}
-.no-continuo{
-    text-decoration: none;
-    cursor: pointer;
-}
-.no-continuo:hover{
-    background-color: #6eccaf;
-    color: #344d67 !important;
+.cards-section{
+     text-align: center;
 }
