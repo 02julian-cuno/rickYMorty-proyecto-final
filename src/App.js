@@ -1,16 +1,21 @@
-
 import './App.css';
-import Home from './pages/home';
-import Characters from "./pages/characters/Characters"
+// import Home from './paginas/home';
+import Characters from './paginas/Characters/Character';
+
 
 
 function App() {
   return (
-    <div>
-      {/* <Home/> */}
-      <Characters/>
- 
-    </div>
+    
+
+        //  <Home/> 
+        <Characters/>
+    
+
+      
+     
+        
+    
   
   );
 }
