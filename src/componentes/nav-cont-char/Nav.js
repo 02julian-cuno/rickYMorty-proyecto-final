@@ -7,8 +7,8 @@ function Nav() {
                         <a className="text"><h1 className="navbar-brand ">Rick & Morty</h1></a>
                     <div className="collapse navbar-collapse justify-content-end">
                         <ul className="navbar-nav nav-pills p-4">
-                            <li className="nav-item continuo m-2"><a className="continuo p-2" href="">Characters</a></li>
-                            <li className="nav-item m-2"><a className="no-continuo p-2" href="">Contact</a></li>
+                            <li className="nav-item continuo m-2"><a className="continuo" href="">Characters</a></li>
+                            <li className="nav-item m-2"><a className="no-continuo " href="">Contact</a></li>
 
                         </ul>
                     </div>

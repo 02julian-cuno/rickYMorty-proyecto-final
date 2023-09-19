@@ -1,0 +1,20 @@
+.color-fondo{
+    background-color: rgba(92,117,146,.9) !important;
+    height: 100%;
+    width: 150vh;
+}
+textarea{
+    height: 40vh;
+    border-radius: 8px;
+}
+.color, .form-label{
+    color: #223142 !important;
+}
+.boton-contact{
+    background-color: #344d67 !important;
+    color: #f5f5f5 !important;
+}
+.boton-contact:hover{
+    background-color: #6eccaf !important;
+    color: #344d67 !important;
+}

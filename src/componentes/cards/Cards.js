@@ -6,11 +6,11 @@ import "./cards.css"
 
 function Cards({data}) {
     const [show, setShow]=useState(false);
-    const [hide, setHide]=useState("d-block");
+    // const [hide, setHide]=useState("d-block");
 
     const mostrarLista=()=>{
         setShow(true);
-        setHide('d-none')
+        // setHide('d-none')
     }
   
 return(
@@ -18,14 +18,19 @@ return(
 
     <div className="d-flex flex-column justify-content-between align-items-center">
 
-        <img src={data.image} alt="imagen-personaje..." />
+    <img src={data.image} alt="imagen-personaje..." />
         <h2 className="size-name text-center hide ">{data.name} </h2>
-        <button onClick={()=>setShow(true)} className="btn btn-active align-self-end more boton">know More..</button>
-       {show===true? <InfoCard estado={data.status} especies={data.species} origen={data.origin.name} genero={data.gender} setShow={setShow} /> :""} 
+        <button  onClick={mostrarLista} className="'{hide}' btn btn-active align-self-end more boton">know More..</button>
+</div>
+        
+        
+        <div className="d-flex">
+ { show===true? <InfoCard estado={data.status} especies={data.species} origen={data.origin.name} genero={data.gender} setShow={setShow} /> :""} 
+        </div>
+     
 
     </div>
-      
-    </div>
+  
  
       
    
