@@ -2,6 +2,7 @@ import {Fragment, useState, useEffect} from "react"
 import Nav from "../../componentes/nav-cont-char/Nav"
 import Cards from "../../componentes/cards/Cards";
 import Formulario from "../../componentes/formularios/Form";
+import "./characters.css"
 // import Characters2 from "./characters2"; // los demas personajes
 
 
@@ -36,7 +37,7 @@ function Character() {
       filter: 'Origin unknown '
     }]);
     let[filtrosAplicados,setFiltrosAplicados]=useState([]);
-    
+      
   let traerPersonajes= async ()=>{
     let dato = await fetch("https://rickandmortyapi.com/api/character")
     .then(respuesta=>respuesta.json())
@@ -66,7 +67,7 @@ if(event.target.checked === true){
         let info =await traerPersonajes();
     
         let listaPersonajes=info.results;
-
+      console.log(listaPersonajes);
         setPersonajes(listaPersonajes);
         setListaCompleta(listaPersonajes);
     }
@@ -102,8 +103,8 @@ return(
 
   <Fragment>
     <Nav/>
-       <section>
-          <h2 className="tituloCharacters">Filters</h2>
+       <section className="container-fluid">
+          <h2 className="tituloCharacters mt-5 ">Filters</h2>
 
             <form className="d-flex justify-content-between align-items-center">
               {formulario.map((formu)=>{
@@ -118,9 +119,10 @@ return(
 <main className="container-fluid">
   <div className="row card-section justify-content-center align-items-center">
 
-       {personajes.map((personaje)=>{
+       {personajes.map((personaje)=>{ 
+        console.log(personaje);
           return <Cards key={personaje.id} data={personaje} />
-       
+      
        
        
         })

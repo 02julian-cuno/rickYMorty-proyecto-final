@@ -1,16 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import { Link, BrowserRouter} from 'react-router-dom';
+// import Home from './paginas/home';
+// import Route from './componentes/routerPag/Route';
+// import Character from './paginas/Characters/Character';
+import Home from './paginas/home';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+   <BrowserRouter>
+   <Home/>
+    <Link to='/Character'></Link>
    
+   
+   
+   </BrowserRouter>
   </React.StrictMode>
 );
 

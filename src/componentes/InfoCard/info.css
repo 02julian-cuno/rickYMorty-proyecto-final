@@ -1,21 +1,28 @@
-.btn-active{
-    background-color: #6eccaf!important;
-    color: #344d67!important;
-    width: fit-content;
+.cruz{
+    background-color: #6eccaf;
+    color: #344d67;
+    width: 35px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border:none;
 }
-.list-group{
-    width: 350px !important;
+.carctGeneral{
+    width: 350px ;
 }
 ul{
-    list-style-type: none !important;
+    list-style: none ;
 }
-.list-group-item:hover {
-    background-color: #6eccaf!important;
-    color: #344d67!important;
+.caracteristicas:hover {
+    background-color: #6eccaf;
+    color: #344d67;
     cursor: pointer;
 }
-.list-group-item {
-    background-color: initial!important;
-    color: #f5f5f5!important;
+.caracteristicas {
+    background-color: initial;
+    color: #f5f5f5;
     font-size: 1.2rem;
+    border: solid 1px black;
+}
+.cardInfo{
+    align-self: center;
 }

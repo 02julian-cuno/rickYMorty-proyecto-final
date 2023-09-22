@@ -1,13 +1,18 @@
 .card{
-    background-color: #223142 !important;
-    width: fit-content !important;
+    background-color: #223142;
+    width: fit-content ;
 }
 .size-name{
     width: 300px;
-    color: #344d67;
+    color: #6eccaf;
 }
-.boton{
-    background-color: #6eccaf!important;
-    color: #344d67!important;
-    width: fit-content !important;
+#boton{
+    background-color: #6eccaf;
+    color: #344d67;
+    width: 12vh;
+    padding: 8px;
+    border-radius: 8px;
+    align-self: flex-end;
+    border: none;
+    
 }

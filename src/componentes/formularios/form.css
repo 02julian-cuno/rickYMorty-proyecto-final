@@ -1,6 +1,8 @@
 .diseño{
     background-color: #344d67 !important;
     border-radius: 8px;
+    width: 18vh;
+    box-sizing: content-box !important;
     color: #b1f0dc !important;
    
 }
