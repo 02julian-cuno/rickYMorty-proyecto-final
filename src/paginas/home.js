@@ -1,5 +1,5 @@
- import Navegacion from "../componentes/navegacion/Navegacion";
  import "../home.css"
+ import { Link } from "react-router-dom";
  
 
 function Home() {
@@ -21,7 +21,11 @@ function Home() {
 
             <h2 className="text-center p-3">Lets go!</h2>
 
-            <Navegacion/>
+            <div className="d-flex align-items-center justify-content-center">
+                <Link to="/Character"className="m-2 p-3 boton text-center" >Characters</Link>
+                <Link to="/Contact" className="m-2 p-3 boton text-center" >Contact</Link>
+            </div>
+            
 
             </div>
            

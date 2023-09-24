@@ -9,7 +9,7 @@
 #boton{
     background-color: #6eccaf;
     color: #344d67;
-    width: 12vh;
+    width: 18vh !important;
     padding: 8px;
     border-radius: 8px;
     align-self: flex-end;

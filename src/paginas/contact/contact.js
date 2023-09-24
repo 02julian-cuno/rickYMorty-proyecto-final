@@ -6,7 +6,7 @@ function Contact() {
     return(
         <Fragment>
             <Nav/>
-            <section className="container-fluid d-flex justify-content-center align-items-center mt-5 color-fondo">
+            <section className="container-fluid d-flex justify-content-center align-items-center mt-5 color-fondo contact">
                 <div className=" d-flex flex-column justify-content-center align-items-center ">
 
                     <h2 className="color mt-5 pb-4">Contact</h2>

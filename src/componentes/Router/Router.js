@@ -8,6 +8,7 @@ function Router(){
     return(
         <BrowserRouter>
         <Routes>
+            
             <Route path="/" element={<Home/>} />
             <Route path="/Character" element={<Character/>} />
             <Route path="/Contact" element={<Contact/>} />

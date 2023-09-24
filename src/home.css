@@ -21,3 +21,10 @@ p{
 .navbar{
     padding: 0.5 0;
 }
+.boton{
+    background-color: #344d67;
+    color: 6eccaf;
+    text-decoration: none;
+    width: 15vh;
+    border-radius: 8px;
+}

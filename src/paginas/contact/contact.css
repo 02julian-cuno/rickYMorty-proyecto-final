@@ -1,5 +1,5 @@
 .color-fondo{
-    background-color: rgba(92,117,146,.9) !important;
+    background-color: rgba(92,117,146,.9) ;
     height: 100%;
     width: 150vh;
 }
@@ -8,13 +8,21 @@ textarea{
     border-radius: 8px;
 }
 .color, .form-label{
-    color: #223142 !important;
+    color: #223142 ;
 }
 .boton-contact{
-    background-color: #344d67 !important;
-    color: #f5f5f5 !important;
+    background-color: #344d67 ;
+    color: #f5f5f5 ;
 }
 .boton-contact:hover{
-    background-color: #6eccaf !important;
-    color: #344d67 !important;
+    background-color: #6eccaf ;
+    color: #344d67 ;
 }
+textarea:focus{
+outline: none;
+box-shadow: 2px 2px 2px 2px #86b7fe;
+border: none;
+}
+/* .contact{
+    position: fixed;
+} */

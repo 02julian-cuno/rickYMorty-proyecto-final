@@ -1,9 +1,0 @@
-.boton{
-    background-color: #223142 !important; 
-    color: #6eccaf!important;
-}
-.boton:hover{
-    background-color: #6eccaf!important;
-    color: #223142 !important;
-    cursor: pointer;
-}

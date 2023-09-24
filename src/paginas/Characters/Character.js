@@ -67,7 +67,7 @@ if(event.target.checked === true){
         let info =await traerPersonajes();
     
         let listaPersonajes=info.results;
-      console.log(listaPersonajes);
+
         setPersonajes(listaPersonajes);
         setListaCompleta(listaPersonajes);
     }
@@ -106,7 +106,7 @@ return(
        <section className="container-fluid">
           <h2 className="tituloCharacters mt-5 ">Filters</h2>
 
-            <form className="d-flex justify-content-between align-items-center">
+            <form className="d-flex justify-content-between align-items-center flex-wrap">
               {formulario.map((formu)=>{
               return <Formulario key={formu} valorFor={formu.filter} valorId={formu.name} handlerChange={filtrarPersonaje}  />
              }) } 
@@ -120,7 +120,7 @@ return(
   <div className="row card-section justify-content-center align-items-center">
 
        {personajes.map((personaje)=>{ 
-        console.log(personaje);
+        
           return <Cards key={personaje.id} data={personaje} />
       
        
