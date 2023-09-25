@@ -119,14 +119,24 @@ return(
 <main className="container-fluid">
   <div className="row card-section justify-content-center align-items-center">
 
-       {personajes.map((personaje)=>{ 
+       {personajes.length>0?
+          personajes.map((personaje)=>{ 
         
           return <Cards key={personaje.id} data={personaje} />
       
        
        
-        })
-        }
+        }): 
+        <div className="container-fluid">
+          <div className="alert d-flex gap-2 align-items-center" role="alert">
+              <i className="bi bi-exclamation-triangle-fill fs-5"></i>
+              <p className='m-0'>Sorry! There are no characters width all those properties</p>
+            </div>
+        </div>
+            
+                    }
+       
+        
         {/* <Characters2/>*/}
 
       </div> 

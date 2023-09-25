@@ -4,3 +4,8 @@
 .cards-section{
      text-align: center;
 }
+.alert{
+     background-color: #6eccaf;
+    color: #344d67;
+    height: 7vh;
+}
