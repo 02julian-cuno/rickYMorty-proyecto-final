@@ -119,7 +119,7 @@ return(
 
         </div> 
 
-          <div className="collapse flex-wrap justify-content-between" id="multiCollapseExample1">
+          <div className="collapse flex-wrap justify-content-between filters" id="multiCollapseExample1">
 
           
               {formulario.map((formu)=>{
