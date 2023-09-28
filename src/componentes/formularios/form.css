@@ -1,12 +1,7 @@
 .diseño{
     background-color: #344d67 ;
     border-radius: 8px;
-    width:fit-content !important;
-    box-sizing: content-box ;
-    color: #b1f0dc ;
-    display: flex;
-    gap: 10px;
-   
+    color: #b1f0dc; 
 }
 .form-check-input{
     background-color:#6eccaf ;
@@ -14,3 +9,11 @@
 .form-check-input:checked{
     background-color: #223142 ;
 }
+.form-check .form-check-input{
+    float: left;
+}
+/* @media screen and (max-width:800px) {
+    .media-form{
+        display: none;
+    }
+} */

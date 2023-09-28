@@ -1,5 +1,5 @@
 .color-fondo{
-    background-color: rgba(92,117,146,.9) ;
+    background-color: rgba(92,117,146,.9);
     height: 100%;
     width: 150vh;
 }
@@ -26,3 +26,20 @@ border: none;
 /* .contact{
     position: fixed;
 } */
+@media  screen and (max-width:992px) {
+    nav{
+    width: 100%;
+}
+
+    .contact{
+        width: 85%;
+    }
+}
+@media screen and (max-width:800px) {
+    nav{
+        width: 100%;
+    }
+    .contact{
+        width: 75%;
+    }
+}
