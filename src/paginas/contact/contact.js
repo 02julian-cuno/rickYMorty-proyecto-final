@@ -10,27 +10,27 @@ function Contact() {
                 <div className=" d-flex flex-column justify-content-center align-items-center ">
 
                     <h2 className="color mt-5 pb-4">Contact</h2>
-                    <h3 className="color pb-4 ">Leave us your information so we can contact you</h3>
+                    <h3 className="color pb-4">Leave us your information so we can contact you</h3>
 
-                    <form class="row g-3 form-media">
-                        <div class="col-md-6">
-                          <label for="name" class="form-label">Name:</label>
-                          <input type="text" class="form-control" id="name" required />
+                    <form className="row g-3 form-media">
+                        <div className="col-md-6">
+                          <label htmlFor="name" className="form-label">Name:</label>
+                          <input type="text" className="form-control" id="name" required />
                         </div>
 
-                        <div class="col-md-6">
-                          <label for="email" class="form-label">Email:</label>
-                          <input type="email" class="form-control" id="email" required />
+                        <div className="col-md-6">
+                          <label htmlFor="email" className="form-label">Email:</label>
+                          <input type="email" className="form-control" id="email" required />
                         </div>
 
-                        <div class="col-12 d-flex flex-column">
-                          <label for="message" class="form-label">Message</label>
+                        <div className="col-12 d-flex flex-column">
+                          <label htmlFor="message" className="form-label">Message</label>
                           <textarea id="message"></textarea>
                         </div>
 
 
-                        <div class="col-12 pb-4">
-                          <button type="submit" class="btn boton-contact">Send</button>
+                        <div className="col-12 pb-4">
+                          <button type="submit" className="btn boton-contact">Send</button>
                         </div>
                     </form>
                 </div>

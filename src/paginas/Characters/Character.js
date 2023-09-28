@@ -15,26 +15,31 @@ function Character() {
   let [listaCompleta, setListaCompleta]=useState([]);
   let [formulario]=useState([
     {
+      id: 'a',
       name:'Alive',
       filter: 'Characters Alive'
     },
 
     {
+      id: 'b',
       name: 'Dead',
       filter: 'Character Dead'
     },
 
     {
+      id: 'c',
       name:'Female',
       filter:'Female'
     },
 
     {
+      id: 'd',
       name:'Male',
       filter:'Male'
     }, 
 
     {
+      id: 'e',
       name:'unknown',
       filter: 'Origin unknown '
     }]);
@@ -118,7 +123,7 @@ return(
 
           
               {formulario.map((formu)=>{
-              return <Formulario key={formu} valorFor={formu.filter} valorId={formu.name} handlerChange={filtrarPersonaje}  />
+              return <Formulario key={formu.id} valorFor={formu.filter} valorId={formu.name} handlerChange={filtrarPersonaje}  />
              })} 
          
         </div>
@@ -142,8 +147,8 @@ return(
         }): 
         <div className="container-fluid">
           <div className="alert d-flex gap-2 align-items-center" role="alert">
-              <i className="bi bi-exclamation-triangle-fill fs-5"></i>
-              <p className='m-0'>Sorry! There are no characters width all those properties</p>
+              <i className="bi bi-exclamation-triangle-fill alerta"></i>
+              <p className='m-0'>Sorry! There are no characters with those properties</p>
             </div>
         </div>
         }
