@@ -1,9 +1,6 @@
 .fondo{
     background-color: #344d67;
     padding: 20px;
-    position: sticky;
-    top: 0;
-    z-index: 1;
     display: block;
 }
 .titulo{
@@ -54,11 +51,12 @@
     .nav-item{
         display: flex;
         gap: 10px;
-    }
-    
-    
+    }  
 }
 @media  screen and (max-width:800px) {
+    header{
+        padding: 2px;
+    }
     .fondo{
         height: 20vh;
         width: 100%;
@@ -69,10 +67,11 @@
         align-items: flex-start;
     }
     .navbar-collapse{
-        background-color: #344d67 !important;
         flex-basis: 100%;
         flex-grow: 1;
+        background-color: #344d67;
     }
+    
     
 
     

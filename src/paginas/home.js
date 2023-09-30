@@ -8,7 +8,7 @@ function Home() {
             <div className="fondo-blanco d-flex flex-column justify-content-center">
                  <h1 className="row justify-content-center">Proyect Rick & Morty</h1>
 
-                 <h2 className="text-center p-3">Helcome to Rick & Morty Proyect!</h2>
+                 <h2 className="text-center p-3">Welcome to Rick & Morty Proyect!</h2>
 
                  <p className="text-center p-2">This proyect was made for practising React and to made a functional website</p>
 

@@ -10,6 +10,7 @@ function Nav({itemsMenu}) {
 
 
     return(
+        
         <nav className="navbar navbar-expand-lg w-100 fondo">
             <div className="container-fluid justify-content-between align-items-center">
                     <Link to="/" className="text" ><h1 className="navbar-brand titulo ">Rick & Morty</h1></Link>

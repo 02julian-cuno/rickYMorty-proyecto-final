@@ -24,6 +24,7 @@
     color: #344d67;
     font-size: 4vh;
 }
+
 @media screen and (max-width:800px) {
      nav{
           width: 100%;

@@ -26,3 +26,8 @@ ul{
 .cardInfo{
     align-self: center;
 }
+.boton-close{
+    color: #344d67;
+    padding-right: 5px;
+    font-size: 20px;
+}
